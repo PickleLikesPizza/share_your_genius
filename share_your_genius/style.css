@@ -1,0 +1,51 @@
+h1 {
+    color:rgb(77, 101, 91);
+}
+h2 {
+    color:rgb(104, 129, 118)
+}
+h3 {
+    color:rgb(115, 144, 131)
+}
+p {
+    color:rgb(107, 133, 121)
+}
+body {
+    background-color:rgb(203, 221, 216);
+    text-align: center;
+}
+nav {
+    background-color: #9eccbc;
+    border-radius: 15px;
+    position: sticky;
+    top: 15px;
+    width: 98%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: rgb(66, 88, 87);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+nav a:hover {
+    background-color: #a5d4c4;
+}
+        /* Active (current page) link */
+nav a.active {
+    background-color: #b0d3cb;  /* a green highlight */
+    font-weight: bold;          /* make it stand out */
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
